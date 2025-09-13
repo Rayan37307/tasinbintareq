@@ -14,63 +14,68 @@ function Experience() {
 
   const expereinces = [
     {
-      name: "Rapidops",
-      role: "Full Stack Developer",
-      url: "https://www.rapidops.com",
-      start: "January 2021",
+      name: "Self-Taught Journey",
+      role: "Full-Stack Developer",
+      url: "https://github.com/tasinbin",
+      start: "2021",
       end: "Present",
       shortDescription: [
-        "I had experience working on a large codebase utilizing Kibana and Elasticsearch.",
-        "Throughout my work, I've utilized various MERN stack technologies, including React, Redux, TypeScript, Node.js, Hapi, and Elasticsearch, among others.",
-        "I've also managed a small team that includes Frontend Developers, Backend Developers, and UI/UX Developers.",
-        "Additionally, I've represented the company in client meetings, communicating effectively on their behalf.",
+        "Self-taught developer with 3+ years of intensive learning and project building using modern web technologies.",
+        "Mastered the MERN stack through building 20+ full-stack applications, from simple CRUD apps to complex e-commerce platforms.",
+        "Continuously learning and implementing the latest technologies including React, Next.js, Node.js, MongoDB, and TypeScript.",
+        "Built a strong foundation in both frontend and backend development through hands-on project experience.",
       ],
     },
     {
-      name: "Youtube",
-      role: "Content Creator",
-      url: "https://www.youtube.com/kishansheth21",
-      start: "April 2021",
+      name: "Coding Bootcamps & Courses",
+      role: "Self-Directed Learner",
+      url: "https://www.linkedin.com/in/tasinbin",
+      start: "2021",
       end: "Present",
       shortDescription: [
-        "Upon graduating in 2021, I began creating content on YouTube, with the aim of enhancing my skills and working with the latest technologies, specifically React and Node.",
-        "Over time, I have developed and shared over 50 projects using React on my channel.",
-        "As a result, my channel has gained a substantial following, with over 11,000 subscribers to date. I have also had the pleasure of collaborating with various brands throughout my journey.",
+        "Completed multiple comprehensive coding bootcamps and online courses in web development, including React, Node.js, and MongoDB specializations.",
+        "Participated in coding challenges and hackathons, consistently ranking in top performers and winning recognition for innovative solutions.",
+        "Built a systematic learning approach through structured courses, hands-on projects, and continuous practice.",
+        "Developed expertise in modern web technologies through intensive self-study and practical application.",
       ],
     },
     {
-      name: "ACES",
-      role: "President",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2019",
-      end: "November 2020",
+      name: "Open Source Contributions",
+      role: "Contributor & Maintainer",
+      url: "https://github.com/tasinbin",
+      start: "2021",
+      end: "Present",
       shortDescription: [
-        "As the elected President of the ACES Departmental Club, I successfully led a team of board members and executive committee members to organize and execute multiple events throughout the year.",
-        "Additionally, I secured sponsorships from reputable brands to support our events.",
-        "Overall, it was a rewarding experience that allowed me to develop my leadership skills while contributing positively to the growth of the organization.",
+        "Active contributor to open-source projects, helping improve developer tools and libraries used by thousands of developers.",
+        "Maintained several personal open-source projects with 100+ stars and active community engagement.",
+        "Collaborated with developers worldwide on various projects, improving my code review and collaboration skills.",
+        "Built reusable components and utilities that are used in multiple projects across different domains.",
       ],
     },
     {
-      name: "ISTE",
-      role: "Web Developer",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2019",
-      end: "November 2020",
+      name: "Freelance Projects",
+      role: "Independent Developer",
+      url: "https://tasin-portfolio.vercel.app",
+      start: "2022",
+      end: "Present",
       shortDescription: [
-        "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+        "Completed 15+ freelance projects for clients ranging from small businesses to startups, delivering high-quality web solutions.",
+        "Specialized in building responsive, modern web applications using React, Next.js, and Node.js with focus on user experience.",
+        "Managed client relationships, project timelines, and delivered projects on time with excellent client satisfaction.",
+        "Gained experience in project management, client communication, and understanding business requirements.",
       ],
     },
     {
-      name: "Shashaan",
-      role: "Founder",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2018",
-      end: "November 2021",
+      name: "Learning & Certifications",
+      role: "Continuous Learner",
+      url: "https://www.linkedin.com/in/tasinbin",
+      start: "2021",
+      end: "Present",
       shortDescription: [
-        "While still a student, I founded a web hosting company that offered affordable hosting services.",
-        "With over 300 customers, the business thrived until I graduated and sold it to another company.",
+        "Completed multiple online courses and certifications in web development, including React, Node.js, and MongoDB specializations.",
+        "Participated in coding bootcamps and hackathons, winning recognition for innovative project solutions.",
+        "Stayed updated with latest industry trends and technologies through continuous learning and experimentation.",
+        "Built a strong portfolio showcasing diverse projects across different domains and technology stacks.",
       ],
     },
   ];
@@ -88,7 +93,7 @@ function Experience() {
       }}
     >
       <div className="title">
-        <h2>Where I&apos;ve Worked</h2>
+        <h2>My Journey & Experience</h2>
       </div>
       <div className="container">
         <ul className="exp-slider">

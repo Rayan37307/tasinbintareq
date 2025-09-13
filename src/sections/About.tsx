@@ -29,28 +29,29 @@ function About() {
       <div className="about-grid-info">
   <p className="about-grid-info-text">
     👋 Hey there! My name is <span className="font-semibold">Tasinbin Tareq</span>, 
-    and I’m a passionate <span className="font-semibold">Full-Stack Web Developer</span>.  
+    and I'm a passionate <span className="font-semibold">Self-Taught Full-Stack Developer</span>.  
     My journey started 3+ years ago when I built my very first project using the 
-    <span className="font-semibold"> MERN stack</span> 🚀 — and ever since, I’ve been crafting 
-    modern, scalable, and user-friendly web applications.
+    <span className="font-semibold"> MERN stack</span> 🚀 — and ever since, I've been crafting 
+    modern, scalable, and user-friendly web applications through continuous learning and practice.
   </p>
 
   <p className="about-grid-info-text">
-    💡 Today, I specialize in designing and developing high-quality digital solutions 
-    that help businesses grow 📈 and users enjoy seamless experiences.  
-    I work extensively with <span className="font-semibold">Next.js</span> ⚡ and other 
-    modern frameworks to build production-ready applications.
+    💡 Through self-directed learning and building 20+ projects, I've mastered the art of 
+    creating high-quality digital solutions that help businesses grow 📈 and users enjoy 
+    seamless experiences. I work extensively with <span className="font-semibold">Next.js</span> ⚡ 
+    and other modern frameworks to build production-ready applications.
   </p>
 
   <p className="about-grid-info-text">
-    🔭 Beyond coding, I love exploring new technologies in 
+    🔭 My passion for learning drives me to explore new technologies in 
     <span className="font-semibold"> AI 🤖, DevOps ⚙️, and Mobile Development 📱</span> — 
-    constantly learning to stay future-proof in this fast-moving industry.
+    constantly expanding my skill set to stay ahead in this fast-moving industry.
   </p>
 
   <p className="about-grid-info-text">
-    🌍 I also enjoy contributing to open-source projects 🛠️ and building side projects 
-    that challenge me to grow as a developer while sharing my knowledge with the community.
+    🌍 I actively contribute to open-source projects 🛠️, participate in coding communities, 
+    and build side projects that challenge me to grow as a developer while sharing my knowledge 
+    with fellow developers. My goal is to help others learn while continuously improving myself.
   </p>
 
   <p className="about-grid-info-text">

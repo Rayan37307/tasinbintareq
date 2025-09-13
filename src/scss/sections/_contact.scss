@@ -1,16 +1,21 @@
 .contact {
-  max-width: 700px;
-  margin: 15rem auto;
+  max-width: 800px;
+  margin: 10rem auto;
+  padding: 0 2rem;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
+  
   .contact-title {
     color: var(--theme-color);
-    font-size: var(--tbase);
+    font-size: 1.1rem;
     font-family: var(--fira-code);
-    font-weight: 300;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    
     &::before {
       counter-increment: title;
       content: "0" counter(title) ".";
@@ -18,24 +23,78 @@
       color: var(--theme-color);
     }
   }
+  
   .contact-sub-title {
-    font-size: var(--tgiant);
+    font-size: 3rem;
     font-family: var(--raleway);
-    color: var(--light-slate);
+    color: var(--lightest-slate);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
   }
+  
   .contact-text {
-    color: var(--slate);
-    font-size: var(--tlarge);
-    letter-spacing: 0.07rem;
-    line-height: 1.6rem;
-    font-weight: 500;
+    color: var(--light-slate);
+    font-size: 1.1rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.7;
+    font-weight: 400;
     font-family: var(--raleway);
     text-align: center;
+    max-width: 600px;
+    margin-bottom: 2rem;
   }
+  
   .contact-cta {
     margin-top: 1rem;
+    
     .btn {
-      padding: 1rem 2rem;
+      padding: 1rem 2.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 0.5rem;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(157, 0, 255, 0.3);
+      }
+    }
+  }
+  
+  // Responsive Design
+  @media screen and (max-width: 768px) {
+    margin: 5rem auto;
+    padding: 0 1rem;
+    gap: 1.5rem;
+    
+    .contact-sub-title {
+      font-size: 2.5rem;
+    }
+    
+    .contact-text {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    
+    .contact-cta .btn {
+      padding: 0.875rem 2rem;
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .contact-sub-title {
+      font-size: 2rem;
+    }
+    
+    .contact-text {
+      font-size: 0.95rem;
+    }
+    
+    .contact-cta .btn {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
     }
   }
 }

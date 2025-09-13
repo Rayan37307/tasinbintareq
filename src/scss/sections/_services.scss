@@ -1,0 +1,223 @@
+.services {
+  margin: 10rem 0;
+  padding: 0 2rem;
+
+  .title {
+    font-family: var(--raleway);
+    color: var(--lightest-slate);
+    position: relative;
+    text-align: center;
+    margin-bottom: 4rem;
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: var(--tx2large);
+      font-weight: 700;
+
+      &::before {
+        counter-increment: title;
+        content: "0" counter(title) ".";
+        margin-right: 0.5rem;
+        color: var(--theme-color);
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+        height: 2px;
+        background-color: var(--lightest-navy);
+      }
+    }
+  }
+
+  .services-subtitle {
+    color: var(--light-slate);
+    font-family: var(--raleway);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  &-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+  }
+
+  .service-card {
+    background: linear-gradient(135deg, var(--light-navy) 0%, rgba(157, 0, 255, 0.1) 100%);
+    border: 1px solid rgba(157, 0, 255, 0.2);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+      border-color: var(--theme-color);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, transparent 0%, rgba(157, 0, 255, 0.05) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    &:hover::before {
+      opacity: 1;
+    }
+  }
+
+  .service-icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(157, 0, 255, 0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    color: var(--theme-color);
+    font-size: 1.5rem;
+    border: 2px solid rgba(157, 0, 255, 0.3);
+    transition: all 0.3s ease;
+
+    .service-card:hover & {
+      background: rgba(157, 0, 255, 0.25);
+      transform: scale(1.1);
+    }
+  }
+
+  .service-title {
+    color: var(--lightest-slate);
+    font-family: var(--raleway);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .service-description {
+    color: var(--light-slate);
+    font-family: var(--raleway);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .service-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  .service-feature {
+    color: var(--light-slate);
+    font-family: var(--fira-code);
+    font-size: 0.9rem;
+    padding: 0.25rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+
+    &::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--theme-color);
+      font-weight: bold;
+    }
+  }
+
+
+  &-cta {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--theme-color) 0%, rgba(157, 0, 255, 0.8) 100%);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-family: var(--fira-code);
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+
+    &:hover {
+      background: linear-gradient(135deg, rgba(157, 0, 255, 0.9) 0%, var(--theme-color) 100%);
+      box-shadow: 0 10px 25px rgba(157, 0, 255, 0.3);
+      transform: translateY(-2px);
+    }
+
+    &:focus {
+      outline: 2px solid var(--theme-color);
+      outline-offset: 2px;
+    }
+  }
+
+  // Responsive Design
+  @media screen and (max-width: 968px) {
+    .title h2::after {
+      width: 150px;
+    }
+
+    &-container {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    margin: 5rem 0;
+    padding: 0 1rem;
+
+    .title h2::after {
+      display: none;
+    }
+
+    &-container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .service-card {
+      padding: 1.5rem;
+    }
+
+    .service-title {
+      font-size: 1.2rem;
+    }
+
+    .service-description {
+      font-size: 0.9rem;
+    }
+
+    .cta-button {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
+}
