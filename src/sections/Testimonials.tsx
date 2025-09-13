@@ -8,7 +8,7 @@ function Testimonials() {
       name: "Alex Thompson",
       role: "Senior Developer & Mentor",
       company: "Tech Community",
-      content: "Tasin's dedication to learning and building quality projects is impressive. His code is clean, well-documented, and shows deep understanding of modern web development principles.",
+      content: "Tasin&apos;s dedication to learning and building quality projects is impressive. His code is clean, well-documented, and shows deep understanding of modern web development principles.",
       rating: 5,
       project: "Code Review & Mentorship"
     },
@@ -24,7 +24,7 @@ function Testimonials() {
       name: "James Wilson",
       role: "Fellow Developer",
       company: "Coding Community",
-      content: "Tasin's code quality and problem-solving approach is impressive. His projects are well-structured and his explanations are clear. Great developer to collaborate with!",
+      content: "Tasin&apos;s code quality and problem-solving approach is impressive. His projects are well-structured and his explanations are clear. Great developer to collaborate with!",
       rating: 5,
       project: "Code Collaboration"
     },

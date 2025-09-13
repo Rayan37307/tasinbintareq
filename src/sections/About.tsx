@@ -29,14 +29,14 @@ function About() {
       <div className="about-grid-info">
   <p className="about-grid-info-text">
     👋 Hey there! My name is <span className="font-semibold">Tasinbin Tareq</span>, 
-    and I'm a passionate <span className="font-semibold">Self-Taught Full-Stack Developer</span>.  
+    and I&apos;m a passionate <span className="font-semibold">Self-Taught Full-Stack Developer</span>.  
     My journey started 3+ years ago when I built my very first project using the 
-    <span className="font-semibold"> MERN stack</span> 🚀 — and ever since, I've been crafting 
+    <span className="font-semibold"> MERN stack</span> 🚀 — and ever since, I&apos;ve been crafting 
     modern, scalable, and user-friendly web applications through continuous learning and practice.
   </p>
 
   <p className="about-grid-info-text">
-    💡 Through self-directed learning and building 20+ projects, I've mastered the art of 
+    💡 Through self-directed learning and building 20+ projects, I&apos;ve mastered the art of 
     creating high-quality digital solutions that help businesses grow 📈 and users enjoy 
     seamless experiences. I work extensively with <span className="font-semibold">Next.js</span> ⚡ 
     and other modern frameworks to build production-ready applications.

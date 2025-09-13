@@ -115,7 +115,7 @@ function Services() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          Let's Discuss Your Project
+          Let&apos;s Discuss Your Project
         </motion.a>
       </div>
     </motion.section>

@@ -213,7 +213,7 @@ function Projects() {
           hidden: { opacity: 0, y: 0 },
         }}
       >
-        <h2 id="projects-heading">Some Things I've Built</h2>
+        <h2 id="projects-heading">Some Things I&apos;ve Built</h2>
       </motion.div>
       <div className="projects-container" role="list" aria-label="Project portfolio">
         {projectsData.map(
